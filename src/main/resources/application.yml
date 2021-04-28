@@ -1,0 +1,11 @@
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+  application:
+    name: video
+
+server:
+  port: 8080
+  max-http-header-size: 10240000
