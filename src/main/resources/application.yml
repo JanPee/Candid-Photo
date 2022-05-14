@@ -1,11 +1,14 @@
+server:
+  port: 8080
+  max-http-header-size: 10240000
+
 spring:
   mvc:
     view:
       prefix: /
       suffix: .html
-  application:
-    name: video
 
-server:
-  port: 8080
-  max-http-header-size: 10240000
+image:
+  url: C:\Users\Administrator\Desktop\
+  #url: /root/img/
+  suffix: .jpg
